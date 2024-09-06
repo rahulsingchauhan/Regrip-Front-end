@@ -1,6 +1,7 @@
 
 import DashboardCards from '../../assets/components/DashboardCards'
 import ActionTable from '../../assets/components/ActionTable'
+import TyrePurchases from '../../assets/components/TyrePurchases'
 
 function Dashboard() {
   return (
@@ -8,6 +9,7 @@ function Dashboard() {
     <div className="w-full">
      <DashboardCards/>
      <ActionTable/>
+     <TyrePurchases/>
     </div>
    </>
   )
