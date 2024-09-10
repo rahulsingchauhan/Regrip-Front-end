@@ -1,9 +1,8 @@
-import  { useState } from 'react'; // Make sure to import useState
-
+import { useState } from 'react';
 import { FaTachometerAlt, FaCogs, FaChartBar, FaTruck, FaWrench, FaFileAlt, FaAngleDown, FaAngleUp } from 'react-icons/fa';
 import { BsBoxSeam } from 'react-icons/bs';
 import { GiCarWheel } from 'react-icons/gi';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
   const [isReportsOpen, setIsReportsOpen] = useState(false);
